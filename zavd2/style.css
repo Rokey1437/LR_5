@@ -1,0 +1,45 @@
+img {
+    width: 400px;
+}
+
+.wrapper {
+    background-color: cadetblue;
+    border: 1px solid black;
+    width: 400px;
+    height: 305px;
+    margin: 0 auto;
+}
+
+.wrapper .world {
+    top: 60px;
+    z-index: 1;
+}
+
+.wrapper .clouds, .water, .wooden_ship, .world {
+    top: 0;
+    position: absolute;
+}
+
+
+.wrapper .clouds {
+    top: 10px;
+    margin-left: 200px;
+}
+
+.wrapper .clouds img {
+    width: 200px;
+}
+
+.wrapper .water {
+    top: 280px;
+    z-index: 2;
+}
+
+.wrapper .wooden_ship {
+    top: 190px;
+    z-index: 1;
+}
+
+.wrapper .wooden_ship img{
+    width: 100px;
+}
